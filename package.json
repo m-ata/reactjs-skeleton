@@ -1,0 +1,60 @@
+{
+  "name": "react-skeleton",
+  "version": "1.0.0",
+  "description": "React Skeleton App",
+  "main": "index.js",
+  "engines": {
+    "node": "14.18.3"
+  },
+  "scripts": {
+    "start": "serve -s dist -p 8080",
+    "dev": "webpack serve --port 3010",
+    "build": "webpack",
+    "pretty": "prettier --write ./src"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Muhammad Ata",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.16.7",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "axios": "^0.27.2",
+    "classnames": "^2.3.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-intl": "^5.24.3",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.2.1",
+    "serve": "^13.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.7",
+    "@babel/core": "^7.16.7",
+    "@babel/plugin-transform-runtime": "^7.16.8",
+    "@babel/preset-env": "^7.16.7",
+    "@babel/preset-react": "^7.16.7",
+    "@svgr/webpack": "^6.2.0",
+    "@webpack-cli/init": "^1.1.3",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^5.2.7",
+    "eslint": "^8.6.0",
+    "eslint-config-react-app": "^7.0.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-webpack-plugin": "^3.1.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.1",
+    "prettier": "^2.5.1",
+    "prop-types": "^15.8.1",
+    "regenerator-runtime": "^0.13.9",
+    "sass": "^1.45.2",
+    "sass-loader": "^12.4.0",
+    "source-map-loader": "^2.0.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^3.11.3"
+  }
+}
